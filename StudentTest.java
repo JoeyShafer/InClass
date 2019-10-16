@@ -49,7 +49,7 @@ public class StudentTest {
 		
 		// should be the same, therefore should be 0
 		Student studentSame = new Student("X", "Y", 5);
-		actual = secondStudent.compareTo(studentSame);
+		actual = student.compareTo(studentSame);
 		int expected = 0;
 		assertEquals(expected, actual);
 
